@@ -7,6 +7,7 @@
     * **RRBS.md** 关于RRBS的技术和概念总结
     * **bismark.md** bismark的运行教程
     * **Bismark_Pipeline** 存储bismark的运行代码
-2. To be continued...
+2. **Cellphonedb_convertgene.R** 小鼠和人类的Gene Name转换
+3. To be continued...
 
 # w(ﾟДﾟ)w 要好好学习啊！
