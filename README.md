@@ -3,8 +3,8 @@
 <mark>**仅供本实验室**</mark><br>
 2022.05.07 暂时地存储一些表观遗传学的RRBS技术和处理方法bismark流程的教程及代码。<br>
 2022.06.12-13 更新了Chip-seq的流程内容,Transcriptomics的内容和GSEA的内容。<br>
-2022.07.15-21 更新了CUT_Tag_pipeline，ATAC-seq和ChIP-seq pipeline的相关内容，Software_Parameters.md为了未来封装流程整理的各种软件参数。ATAC-seq和Chip-seq分析流程基本一致，具体个性化分析可以参考CUT_Tag_pipeline的部分内容。<br>
-**Plan:学习宏基因组相关内容。**
+2022.07.15-21 更新了CUT_Tag_pipeline，ATAC-seq和ChIP-seq pipeline的相关内容，Software_Parameters.md为了未来封装流程整理的各种软件参数。ATAC-seq和Chip-seq分析流程基本一致，具体个性化分析可以参考CUT_Tag_pipeline的部分内容。
+2022.09.22 更新了学习宏基因组相关内容。<br>
 
 ### To be continued...
 # User Guide
@@ -31,6 +31,8 @@
     * **h.all.v7.4.symbols.gmt** hallmark数据库symbol的基因注释reference
     * **c2.cp.reactome.v7.4.symbols.gmt** reactome数据库symbol的基因注释reference
     * **MS4A4A-医学统计支持办公室.pptx** GSEA网站使用方法，同时也是医学统计支持办公室结果汇总的模板
-4. **Cellphonedb_convertgene.R** 小鼠和人类的Gene Name转换
-
+4. **Metagenomnic** 关于宏基因组分析的workflow的总结
+    * **Metagenomic/Metagenomic_StudyAccount.md** 关于宏基因组的背景知识介绍
+    * **Metagenomic/Metagenomic_shotgun-seq_pipeline.md** shotgun-seq 分析流程【未上传，汇报完再说】
+5. **Cellphonedb_convertgene.R** 小鼠和人类的Gene Name转换
 # w(ﾟДﾟ)w 要好好学习啊！
