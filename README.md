@@ -3,7 +3,7 @@
 <mark>**仅供本实验室**</mark><br>
 2022.05.07 暂时地存储一些表观遗传学的RRBS技术和处理方法bismark流程的教程及代码。<br>
 2022.06.12-13 更新了Chip-seq的流程内容,Transcriptomics的内容和GSEA的内容。<br>
-2022.07.15-21 更新了CUT_Tag_pipeline，ATAC-seq和ChIP-seq pipeline的相关内容，Software_Parameters.md为了未来封装流程整理的各种软件参数。ATAC-seq和Chip-seq分析流程基本一致，具体个性化分析可以参考CUT_Tag_pipeline的部分内容。
+2022.07.15-21 更新了CUT_Tag_pipeline，ATAC-seq和ChIP-seq pipeline的相关内容，Software_Parameters.md为了未来封装流程整理的各种软件参数。ATAC-seq和Chip-seq分析流程基本一致，具体个性化分析可以参考CUT_Tag_pipeline的部分内容。<br>
 2022.09.22 更新了学习宏基因组相关内容。<br>
 
 ### To be continued...
