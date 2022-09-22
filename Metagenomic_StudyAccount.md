@@ -1,5 +1,44 @@
 # Metagenomic_StudyAccount
-@[TOC]
+
+<!-- TOC -->
+
+  
+
+- [Metagenomic_StudyAccount](#metagenomic_studyaccount)
+
+- [1. （1） Background](#1-1-background)
+
+- [2. （2） Taxonomy](#2-2-taxonomy)
+
+- [2.1. [1] Alpha and beta diversity](#21-1-alpha-and-beta-diversity)
+
+- [2.2. [2] Strain-level metagenomics](#22-2-strain-level-metagenomics)
+
+- [2.3. [3] 泛基因组 Pangenome](#23-3-%E6%B3%9B%E5%9F%BA%E5%9B%A0%E7%BB%84-pangenome)
+
+- [3. （3）标记基因分析](#3-3%E6%A0%87%E8%AE%B0%E5%9F%BA%E5%9B%A0%E5%88%86%E6%9E%90)
+
+- [4. （4）核糖体序列 16S](#4-4%E6%A0%B8%E7%B3%96%E4%BD%93%E5%BA%8F%E5%88%97-16s)
+
+- [4.1. Operational taxonomic unit OTU](#41-operational-taxonomic-unit-otu)
+
+- [4.2. 16s vs Shotgun sequencing](#42-16s-vs-shotgun-sequencing)
+
+- [5. （5）分析流程](#5-5%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B)
+
+- [5.1. 扩增子分析流程](#51-%E6%89%A9%E5%A2%9E%E5%AD%90%E5%88%86%E6%9E%90%E6%B5%81%E7%A8%8B)
+
+- [5.2. 宏基因组分析](#52-%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%88%86%E6%9E%90)
+
+- [5.2.1. 宏基因组binning](#521-%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84binning)
+
+- [5.3. MEGAN](#53-megan)
+
+- [6. 参考文章](#6-%E5%8F%82%E8%80%83%E6%96%87%E7%AB%A0)
+
+  
+
+<!-- /TOC -->
 
 ##  （1） Background
   1. 两个基因组
