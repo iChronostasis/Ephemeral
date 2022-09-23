@@ -76,12 +76,12 @@ _在一个微生物生态系统中可以检测到多少种不同的物种？_
 **香农均匀度指数（Shannon's equitability index）:** 是一个纯粹的多样性指数，与物种丰富度无关。它测量微生物在样本中分布的均匀程度，而不考虑物种的数量。值的范围可以从零到一：从单一物种的高度优势到所有物种的完全相等的丰度。
 
 
-richness：物种丰度
-chao1:用chao1算法估计样品中所含OTU数目
-ACE:评估群落中OTU数目
-shannon:估算样品中微生物多样性
-simpson:估算样品中微生物多样性
-invsimpson:相对于simpson指数，同样可以评估物种多样性水平的均匀的群落丰度
+richness：物种丰度<br>
+chao1:用chao1算法估计样品中所含OTU数目<br>
+ACE:评估群落中OTU数目<br>
+shannon:估算样品中微生物多样性<br>
+simpson:估算样品中微生物多样性<br>
+invsimpson:相对于simpson指数，同样可以评估物种多样性水平的均匀的群落丰度<br>
 
 
 2. Beta diversity : **样品间微生物群落的变化**
