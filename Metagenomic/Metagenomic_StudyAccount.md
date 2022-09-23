@@ -141,13 +141,15 @@ _**OTU 用于根据序列相似性对细菌进行分类。**_
 OTU 表包含每个样本中每个分类单元 (OTU) 观察到的序列数。列通常代表样本，行代表属或种特定分类单位 (OTU)。OTU 表通常保存为[→ BIOM 格式文件](https://www.metagenomics.wiki/tools/16s/qiime/otu-biom-table)。[](https://www.metagenomics.wiki/tools/16s/qiime/otu-biom-table)
 
 ### 2. 16s vs Shotgun sequencing
-![](Metagenomic/images/16svsshortgun.png)
+
+![](images/16svsshortgun.png)
 
 ## （5）分析流程
-![](Metagenomic/images/Characterization.webp)
+
+![](images/Characterization.webp)
 
 
-![](Metagenomic/images/analysis.png)
+![](images/analysis.png)
 
 ### 1. 扩增子分析流程
 双端序列文件需要提前合并。  
@@ -155,18 +157,18 @@ OTU 表包含每个样本中每个分类单元 (OTU) 观察到的序列数。列
 [EasyAmplicon](https://github.com/YongxinLiu/EasyAmplicon)
 [多样性分析](https://github.com/YongxinLiu/EasyAmplicon/blob/master/result/Diversity.Rmd)
 
-![](/Metagenomic/images/Amplicon_1.png)
+![](images/Amplicon_1.png)
 
 
 ### 2. 宏基因组分析
-![](Metagenomics_analysis.png)
+![](images/Metagenomics_analysis.png)
 
-![](Metagenomic_2.png)
+![](images/Metagenomic_2.png)
 
 2. 宏基因组分析流程
-![](analysiss_workflow.png)
+![](images/analysiss_workflow.png)
 
-![](Metagenomic/images/taxonomy_abundance.png)
+![](images/taxonomy_abundance.png)
 
 
 前者基于marker gene进行分类，后者基于reads进行分类。不同方法结果差异较大。
