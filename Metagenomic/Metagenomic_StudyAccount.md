@@ -166,6 +166,7 @@ OTU 表包含每个样本中每个分类单元 (OTU) 观察到的序列数。列
 ![](images/Metagenomic_2.png)
 
 2. 宏基因组分析流程
+
 ![](images/analysiss_workflow.png)
 
 ![](images/taxonomy_abundance.png)
@@ -179,9 +180,10 @@ Metagenome 组装完成后，我们得到的是成千上万的 contigs，我们�
 
 目前主流的 bining 策略利用的是 contigs 的序列组成特点。
 
-  ![](/Metagenomic/images/bining.webp)
+![](Metagenomic/images/bining.png)
 
-  -   **contig binning**
+
+-   **contig binning**
     由于核酸组成和物种丰度变化模式在越长的序列中越显著和稳定，基于contig binning效果可能更好。
     
 -   **reads binning**

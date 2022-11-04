@@ -5,6 +5,9 @@
 2022.06.12-13 更新了Chip-seq的流程内容,Transcriptomics的内容和GSEA的内容。<br>
 2022.07.15-21 更新了CUT_Tag_pipeline，ATAC-seq和ChIP-seq pipeline的相关内容，Software_Parameters.md为了未来封装流程整理的各种软件参数。ATAC-seq和Chip-seq分析流程基本一致，具体个性化分析可以参考CUT_Tag_pipeline的部分内容。<br>
 2022.09.22 更新了学习宏基因组相关内容。<br>
+2022.11.04 更新了Transcriptomics/Scripts/venn.R的相关代码[ggVennDiagram & UpSet 两种可视化形式]，然后建立Scripts存储各类代码～<br>
+Plan:好好学习...后面可能需要更新一下专门的各种画图的脚本，这样找的话比较方便...<br>
+## ☕☕☕
 
 ### To be continued...
 # User Guide
@@ -33,6 +36,8 @@
     * **MS4A4A-医学统计支持办公室.pptx** GSEA网站使用方法，同时也是医学统计支持办公室结果汇总的模板
 4. **Metagenomnic** 关于宏基因组分析的workflow的总结
     * **Metagenomic/Metagenomic_StudyAccount.md** 关于宏基因组的背景知识介绍
-    * **Metagenomic/Metagenomic_shotgun-seq_pipeline.md** shotgun-seq 分析流程【未上传，汇报完再说】
-5. **Cellphonedb_convertgene.R** 小鼠和人类的Gene Name转换
+    * **Metagenomic/Metagenomic_shotgun-seq_pipeline.md** shotgun-seq 分析流程
+5. **Scripts**各类代码
+    * **Cellphonedb_convertgene.R** 小鼠和人类的Gene Name转换
+    * **Venn.R** Venn各种可视化代码
 # w(ﾟДﾟ)w 要好好学习啊！

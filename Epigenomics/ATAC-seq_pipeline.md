@@ -110,7 +110,7 @@ done
 #### 2.1 建立索引
 [bowtie2 官网](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 <mark>**推荐使用！**</mark>
-![](Epigenomics/images/bowtie2_install_ref.jpg))
+![](Epigenomics/images/bowtie2_install_ref.jpg)
 bowtie2官网（mm10) :
 ```bash
 # install
