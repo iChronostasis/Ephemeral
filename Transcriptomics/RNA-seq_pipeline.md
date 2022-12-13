@@ -67,16 +67,15 @@ STAR \
 module load conda
 
 File1=/share/data3/xmu_chenxiaofen/4atask/CleanData
-File2=/home/chengxin/RNA-seq_slurm/List.txt
+#File2=/home/chengxin/RNA-seq_slurm/List.txt
 File3=/home/chengxin/RNA-seq_slurm/result
 
-cat $File2 | while read LINE || [[ -n ${LINE} ]]
+for i in *_1.fastq.gz; 
 do
-a=$(echo $LINE |sed 's/\n//g')
-b=$(echo $a |sed 's/\r//g')
+i=${i%_1.fastq.gz*}; 
 cd $File3/01.fastqc
-mkdir $b
-fastqc --t 10 -o $File3/01.fastqc/$b $File1/$b/$b\_1.fq.gz $File2/$b/$b\_2.fq.gz
+mkdir $i
+fastqc --t 10 -o $File3/01.fastqc/$b $File1/$i/$i\_1.fq.gz $File2/$i/$i\_2.fq.gz
 done
 ```
 
@@ -89,19 +88,18 @@ File1=/share/data3/xmu_chenxiaofen/4atask/CleanData
 File2=/home/chengxin/RNA-seq_slurm/List.txt
 File3=/home/chengxin/RNA-seq_slurm/result
 cd /share/Projects/chengxin/02.align
-cat $File2 | while read LINE || [[ -n ${LINE} ]]
-do
-a=$(echo $LINE |sed 's/\n//g')
-b=$(echo $a |sed 's/\r//g')
 
+for i in *_1.fastq.gz; 
+do
+i=${i%_1.fastq.gz*}; 
 STAR \
 --genomeDir /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/reads_150bp \
---readFilesIn /share/data3/xmu_chenxiaofen/4atask/CleanData/$b/$b\_1.fq.gz /share/data3/xmu_chenxiaofen/4atask/CleanData/$b/$b\_2.fq.gz \
+--readFilesIn /share/data3/xmu_chenxiaofen/4atask/CleanData/$i/$i\_1.fq.gz /share/data3/xmu_chenxiaofen/4atask/CleanData/$i/$i\_2.fq.gz \
 --readFilesCommand zcat \
 --runThreadN 8 \
 --outSAMtype BAM SortedByCoordinate \
 --quantMode GeneCounts \
---outFileNamePrefix $b
+--outFileNamePrefix $i
 done
 ```
 
