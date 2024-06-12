@@ -52,11 +52,13 @@ wget -c https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.4
 **Reads=150bp**
 
 ```sh
+gunzip GCF_000001635.26_GRCm38.p6_genomic.fna.gz
+gunzip GCF_000001635.26_GRCm38.p6_genomic.gtf.gz
 STAR \
 --runMode genomeGenerate \
 --genomeDir /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/reads_150bp \
---genomeFastaFiles /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/GCF_000001635.26_GRCm38.p6_genomic.fna.gz \
---sjdbGTFfile /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/GCF_000001635.26_GRCm38.p6_genomic.gtf.gz \
+--genomeFastaFiles /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/GCF_000001635.26_GRCm38.p6_genomic.fna \
+--sjdbGTFfile /share/data0/reference/STAR_genome_index/Mus_musculus/GRCm38.p6/GCF_000001635.26_GRCm38.p6_genomic.gtf \
 --runThreadN 8 \
 --sjdbOverhang 149   ###150bp
 ```
