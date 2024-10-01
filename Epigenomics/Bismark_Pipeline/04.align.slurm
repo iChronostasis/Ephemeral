@@ -24,6 +24,11 @@ echo File3/$LINE/$LINE_f1.fastq.gz
 bismark \
 --genome $File1/02.index \
 -o $File1/04.align \
--1 $File1/03.trim/$b\_f1_val_1.fq.gz \
--2 $File1/03.trim/$b\_r2_val_2.fq.gz
+-1 $File1/03.trim/$b\_f1_val_1.fastq \
+-2 $File1/03.trim/$b\_r2_val_2.fastq
 done
+
+
+# 需要使用fastq文件 
+# 另外发现由于samtools软件的版本问题 
+# 无法导出新版本的bam文件，只能导出sam文件（very big）
